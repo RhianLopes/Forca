@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "bonecao_completo_e_mortinho.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "bonecao_completo_e_mortinho@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "bonecao_completo_e_mortinho@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
