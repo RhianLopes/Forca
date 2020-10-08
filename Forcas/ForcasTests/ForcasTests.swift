@@ -10,24 +10,17 @@ import XCTest
 
 class ForcasTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+        let palavra = "CACHORRO"
+        var mascara = "________"
+        
+        mascara = troca("R", na: mascara, com: palavra)
+        
+        XCTAssert(mascara == "_____RR_", mascara)
+        
+        mascara = troca("X", na: mascara, com: palavra)
+        
+        XCTAssertEqual(mascara, "_____RR_", mascara)
     }
 
 }

@@ -79,7 +79,9 @@
                     <connections>
                         <outlet property="bonecoImageView" destination="Gbb-sw-eh0" id="37x-IO-dNl"/>
                         <outlet property="chutesLabel" destination="P7s-3V-Bu5" id="nsq-bd-tt7"/>
+                        <outlet property="dicaLabel" destination="7Js-jJ-RgA" id="Wzj-US-KWB"/>
                         <outlet property="letraTextField" destination="hbl-QX-jw2" id="SbI-hQ-Rxx"/>
+                        <outlet property="palavraMascarada" destination="fN4-XH-trk" id="yY9-ki-3fa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

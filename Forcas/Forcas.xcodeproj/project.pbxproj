@@ -20,6 +20,8 @@
 		F13C694C252D004400AEBBAD /* ForcasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C694B252D004400AEBBAD /* ForcasUITests.swift */; };
 		F13C695C252D1D2700AEBBAD /* UiViewController+Teclado.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C695B252D1D2700AEBBAD /* UiViewController+Teclado.swift */; };
 		F1EFF65F252FAA9600C7503A /* String+AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EFF65E252FAA9600C7503A /* String+AttributedText.swift */; };
+		F1EFF662252FAF5100C7503A /* JogoDaForca.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EFF661252FAF5100C7503A /* JogoDaForca.swift */; };
+		F1EFF664252FB9C700C7503A /* Funcoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EFF663252FB9C700C7503A /* Funcoes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		F13C695B252D1D2700AEBBAD /* UiViewController+Teclado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiViewController+Teclado.swift"; sourceTree = "<group>"; };
 		F1732930AEF9F78500D5F58A /* Pods-Forcas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forcas.debug.xcconfig"; path = "Target Support Files/Pods-Forcas/Pods-Forcas.debug.xcconfig"; sourceTree = "<group>"; };
 		F1EFF65E252FAA9600C7503A /* String+AttributedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+AttributedText.swift"; sourceTree = "<group>"; };
+		F1EFF661252FAF5100C7503A /* JogoDaForca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaForca.swift; sourceTree = "<group>"; };
+		F1EFF663252FB9C700C7503A /* Funcoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcoes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,7 @@
 		F13C6928252D004200AEBBAD /* Forcas */ = {
 			isa = PBXGroup;
 			children = (
+				F1EFF660252FAF3800C7503A /* Modelos */,
 				F1EFF65D252FAA3800C7503A /* Extensoes */,
 				F13C6929252D004200AEBBAD /* AppDelegate.swift */,
 				F13C692B252D004200AEBBAD /* SceneDelegate.swift */,
@@ -178,8 +183,17 @@
 			children = (
 				F13C695B252D1D2700AEBBAD /* UiViewController+Teclado.swift */,
 				F1EFF65E252FAA9600C7503A /* String+AttributedText.swift */,
+				F1EFF663252FB9C700C7503A /* Funcoes.swift */,
 			);
 			path = Extensoes;
+			sourceTree = "<group>";
+		};
+		F1EFF660252FAF3800C7503A /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				F1EFF661252FAF5100C7503A /* JogoDaForca.swift */,
+			);
+			path = Modelos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,7 +420,9 @@
 				F13C695C252D1D2700AEBBAD /* UiViewController+Teclado.swift in Sources */,
 				F1EFF65F252FAA9600C7503A /* String+AttributedText.swift in Sources */,
 				F13C692A252D004200AEBBAD /* AppDelegate.swift in Sources */,
+				F1EFF664252FB9C700C7503A /* Funcoes.swift in Sources */,
 				F13C692C252D004200AEBBAD /* SceneDelegate.swift in Sources */,
+				F1EFF662252FAF5100C7503A /* JogoDaForca.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
