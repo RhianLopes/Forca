@@ -7,7 +7,7 @@
 
 import UIKit
 
-class extension UIViewController {
+public extension UIViewController {
     
     func dispensarTeclado() {
         view.endEditing(true)

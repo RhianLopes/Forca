@@ -82,7 +82,7 @@
         <image name="bonecao_fase_1" width="44" height="35"/>
         <image name="forca" width="146" height="265"/>
         <namedColor name="fundo">
-            <color red="0.95294117647058818" green="0.9137254901960784" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.95300000905990601" green="0.91399997472763062" blue="0.86299997568130493" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

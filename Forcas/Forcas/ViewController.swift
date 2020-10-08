@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func toqueTecladoPronto(_ sender: Any) {
-        view.endEditing(true)
+        dispensarTeclado()
     }
     
     @IBOutlet weak var bonecoImageView: UIImageView!
