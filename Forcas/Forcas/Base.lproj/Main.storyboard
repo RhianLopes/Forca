@@ -49,11 +49,17 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" returnKeyType="done"/>
                                         <connections>
+                                            <action selector="textoAlterado:" destination="BYZ-38-t0r" eventType="editingChanged" id="H3z-AX-Gj9"/>
                                             <action selector="toqueTecladoPronto:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="IMv-Ac-Exh"/>
                                         </connections>
                                     </textField>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P7s-3V-Bu5">
+                                <rect key="frame" x="207" y="541" width="0.0" height="0.0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="fundo"/>
@@ -63,13 +69,17 @@
                             <constraint firstItem="oTa-H4-Y3r" firstAttribute="top" secondItem="8Ob-el-Tag" secondAttribute="bottom" constant="28" id="AkX-qC-EPY"/>
                             <constraint firstItem="8Ob-el-Tag" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="BPt-FL-SMr"/>
                             <constraint firstItem="8Ob-el-Tag" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GCp-2d-G6F"/>
+                            <constraint firstItem="P7s-3V-Bu5" firstAttribute="top" secondItem="oTa-H4-Y3r" secondAttribute="bottom" constant="25" id="Xom-dN-mz2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M4s-P5-FzZ" secondAttribute="trailing" constant="25" id="ciX-1M-ZEJ"/>
                             <constraint firstItem="Gbb-sw-eh0" firstAttribute="trailing" secondItem="8Ob-el-Tag" secondAttribute="trailing" constant="-4" id="mID-R1-F4C"/>
                             <constraint firstItem="oTa-H4-Y3r" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="sqN-nh-Hno"/>
+                            <constraint firstItem="P7s-3V-Bu5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x4c-FX-oHh"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="bonecoImageView" destination="Gbb-sw-eh0" id="37x-IO-dNl"/>
+                        <outlet property="chutesLabel" destination="P7s-3V-Bu5" id="nsq-bd-tt7"/>
+                        <outlet property="letraTextField" destination="hbl-QX-jw2" id="SbI-hQ-Rxx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

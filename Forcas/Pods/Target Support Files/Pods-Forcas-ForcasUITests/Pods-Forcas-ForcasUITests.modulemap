@@ -1,0 +1,6 @@
+framework module Pods_Forcas_ForcasUITests {
+  umbrella header "Pods-Forcas-ForcasUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

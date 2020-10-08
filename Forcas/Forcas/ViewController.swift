@@ -14,13 +14,23 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func toqueTecladoPronto(_ sender: Any) {
-        dispensarTeclado()
-    }
+    @IBOutlet weak var chutesLabel: UILabel!
+    
+    @IBOutlet weak var letraTextField: UITextField!
     
     @IBOutlet weak var bonecoImageView: UIImageView!
     
     var indice: Int = 1
+    
+    @IBAction func textoAlterado(_ sender: Any) {
+        letraTextField.text = letraTextField.text?.last?.uppercased()
+    }
+    
+    @IBAction func toqueTecladoPronto(_ sender: Any) {
+        if let texto = letraTextField.text {
+            chutesLabel.text?.append(texto)
+        }
+    }
     
     @IBAction func toqueBotaoRecomecar(_ sender: Any) {
         indice += 1

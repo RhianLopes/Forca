@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		580182B49C5DEFA1E9C74B05 /* Pods_Forcas_ForcasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4BD833F12676A4A541633A /* Pods_Forcas_ForcasUITests.framework */; };
+		5C77861E5E41BA675810629E /* Pods_ForcasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C582969BA07736DF6E6142F /* Pods_ForcasTests.framework */; };
+		8BC9E74B38FD9274977360EA /* Pods_Forcas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF1F4263410CA4C545E98DD2 /* Pods_Forcas.framework */; };
 		F13C692A252D004200AEBBAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C6929252D004200AEBBAD /* AppDelegate.swift */; };
 		F13C692C252D004200AEBBAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C692B252D004200AEBBAD /* SceneDelegate.swift */; };
 		F13C692E252D004200AEBBAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C692D252D004200AEBBAD /* ViewController.swift */; };
@@ -16,6 +19,7 @@
 		F13C6941252D004400AEBBAD /* ForcasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C6940252D004400AEBBAD /* ForcasTests.swift */; };
 		F13C694C252D004400AEBBAD /* ForcasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C694B252D004400AEBBAD /* ForcasUITests.swift */; };
 		F13C695C252D1D2700AEBBAD /* UiViewController+Teclado.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C695B252D1D2700AEBBAD /* UiViewController+Teclado.swift */; };
+		F1EFF65F252FAA9600C7503A /* String+AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EFF65E252FAA9600C7503A /* String+AttributedText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D6EA1FBC2AE9E4B3503586E /* Pods-Forcas-ForcasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forcas-ForcasUITests.release.xcconfig"; path = "Target Support Files/Pods-Forcas-ForcasUITests/Pods-Forcas-ForcasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B8A2A98D12BE35A1789C1F2 /* Pods-ForcasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForcasTests.release.xcconfig"; path = "Target Support Files/Pods-ForcasTests/Pods-ForcasTests.release.xcconfig"; sourceTree = "<group>"; };
+		79C85F1056FC7589BDD46DBE /* Pods-Forcas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forcas.release.xcconfig"; path = "Target Support Files/Pods-Forcas/Pods-Forcas.release.xcconfig"; sourceTree = "<group>"; };
+		7C582969BA07736DF6E6142F /* Pods_ForcasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForcasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B584D70AA0AE2217D5A86B6A /* Pods-ForcasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForcasTests.debug.xcconfig"; path = "Target Support Files/Pods-ForcasTests/Pods-ForcasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0A7A2B3AD5AE4B5CBC0E7C2 /* Pods-Forcas-ForcasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forcas-ForcasUITests.debug.xcconfig"; path = "Target Support Files/Pods-Forcas-ForcasUITests/Pods-Forcas-ForcasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD4BD833F12676A4A541633A /* Pods_Forcas_ForcasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Forcas_ForcasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1F4263410CA4C545E98DD2 /* Pods_Forcas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Forcas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13C6926252D004200AEBBAD /* Forcas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forcas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13C6929252D004200AEBBAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F13C692B252D004200AEBBAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +63,8 @@
 		F13C694B252D004400AEBBAD /* ForcasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcasUITests.swift; sourceTree = "<group>"; };
 		F13C694D252D004400AEBBAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F13C695B252D1D2700AEBBAD /* UiViewController+Teclado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiViewController+Teclado.swift"; sourceTree = "<group>"; };
+		F1732930AEF9F78500D5F58A /* Pods-Forcas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Forcas.debug.xcconfig"; path = "Target Support Files/Pods-Forcas/Pods-Forcas.debug.xcconfig"; sourceTree = "<group>"; };
+		F1EFF65E252FAA9600C7503A /* String+AttributedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+AttributedText.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC9E74B38FD9274977360EA /* Pods_Forcas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C77861E5E41BA675810629E /* Pods_ForcasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580182B49C5DEFA1E9C74B05 /* Pods_Forcas_ForcasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B683CA44A67A0EFC66A966EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F4263410CA4C545E98DD2 /* Pods_Forcas.framework */,
+				DD4BD833F12676A4A541633A /* Pods_Forcas_ForcasUITests.framework */,
+				7C582969BA07736DF6E6142F /* Pods_ForcasTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCB8B3C074D35F352906BDCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1732930AEF9F78500D5F58A /* Pods-Forcas.debug.xcconfig */,
+				79C85F1056FC7589BDD46DBE /* Pods-Forcas.release.xcconfig */,
+				C0A7A2B3AD5AE4B5CBC0E7C2 /* Pods-Forcas-ForcasUITests.debug.xcconfig */,
+				1D6EA1FBC2AE9E4B3503586E /* Pods-Forcas-ForcasUITests.release.xcconfig */,
+				B584D70AA0AE2217D5A86B6A /* Pods-ForcasTests.debug.xcconfig */,
+				4B8A2A98D12BE35A1789C1F2 /* Pods-ForcasTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F13C691D252D004200AEBBAD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				F13C693F252D004400AEBBAD /* ForcasTests */,
 				F13C694A252D004400AEBBAD /* ForcasUITests */,
 				F13C6927252D004200AEBBAD /* Products */,
+				DCB8B3C074D35F352906BDCC /* Pods */,
+				B683CA44A67A0EFC66A966EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +143,7 @@
 		F13C6928252D004200AEBBAD /* Forcas */ = {
 			isa = PBXGroup;
 			children = (
+				F1EFF65D252FAA3800C7503A /* Extensoes */,
 				F13C6929252D004200AEBBAD /* AppDelegate.swift */,
 				F13C692B252D004200AEBBAD /* SceneDelegate.swift */,
 				F13C692D252D004200AEBBAD /* ViewController.swift */,
@@ -108,7 +151,6 @@
 				F13C6932252D004400AEBBAD /* Assets.xcassets */,
 				F13C6934252D004400AEBBAD /* LaunchScreen.storyboard */,
 				F13C6937252D004400AEBBAD /* Info.plist */,
-				F13C695B252D1D2700AEBBAD /* UiViewController+Teclado.swift */,
 			);
 			path = Forcas;
 			sourceTree = "<group>";
@@ -131,6 +173,15 @@
 			path = ForcasUITests;
 			sourceTree = "<group>";
 		};
+		F1EFF65D252FAA3800C7503A /* Extensoes */ = {
+			isa = PBXGroup;
+			children = (
+				F13C695B252D1D2700AEBBAD /* UiViewController+Teclado.swift */,
+				F1EFF65E252FAA9600C7503A /* String+AttributedText.swift */,
+			);
+			path = Extensoes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F13C6950252D004400AEBBAD /* Build configuration list for PBXNativeTarget "Forcas" */;
 			buildPhases = (
+				7A01714C9FC0B2BE642A61E8 /* [CP] Check Pods Manifest.lock */,
 				F13C6922252D004200AEBBAD /* Sources */,
 				F13C6923252D004200AEBBAD /* Frameworks */,
 				F13C6924252D004200AEBBAD /* Resources */,
@@ -155,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F13C6953252D004400AEBBAD /* Build configuration list for PBXNativeTarget "ForcasTests" */;
 			buildPhases = (
+				83286E66B233C0AC34EA1119 /* [CP] Check Pods Manifest.lock */,
 				F13C6938252D004400AEBBAD /* Sources */,
 				F13C6939252D004400AEBBAD /* Frameworks */,
 				F13C693A252D004400AEBBAD /* Resources */,
+				C8D54212DD8757BDE71C4D01 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F13C6956252D004400AEBBAD /* Build configuration list for PBXNativeTarget "ForcasUITests" */;
 			buildPhases = (
+				9384445E79D0963A551EF24C /* [CP] Check Pods Manifest.lock */,
 				F13C6943252D004400AEBBAD /* Sources */,
 				F13C6944252D004400AEBBAD /* Frameworks */,
 				F13C6945252D004400AEBBAD /* Resources */,
@@ -256,6 +311,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7A01714C9FC0B2BE642A61E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Forcas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83286E66B233C0AC34EA1119 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForcasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9384445E79D0963A551EF24C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Forcas-ForcasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8D54212DD8757BDE71C4D01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForcasTests/Pods-ForcasTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForcasTests/Pods-ForcasTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ForcasTests/Pods-ForcasTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F13C6922252D004200AEBBAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,6 +404,7 @@
 			files = (
 				F13C692E252D004200AEBBAD /* ViewController.swift in Sources */,
 				F13C695C252D1D2700AEBBAD /* UiViewController+Teclado.swift in Sources */,
+				F1EFF65F252FAA9600C7503A /* String+AttributedText.swift in Sources */,
 				F13C692A252D004200AEBBAD /* AppDelegate.swift in Sources */,
 				F13C692C252D004200AEBBAD /* SceneDelegate.swift in Sources */,
 			);
@@ -437,6 +579,7 @@
 		};
 		F13C6951252D004400AEBBAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1732930AEF9F78500D5F58A /* Pods-Forcas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +599,7 @@
 		};
 		F13C6952252D004400AEBBAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C85F1056FC7589BDD46DBE /* Pods-Forcas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +619,7 @@
 		};
 		F13C6954252D004400AEBBAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B584D70AA0AE2217D5A86B6A /* Pods-ForcasTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +642,7 @@
 		};
 		F13C6955252D004400AEBBAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8A2A98D12BE35A1789C1F2 /* Pods-ForcasTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +665,7 @@
 		};
 		F13C6957252D004400AEBBAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A7A2B3AD5AE4B5CBC0E7C2 /* Pods-Forcas-ForcasUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +686,7 @@
 		};
 		F13C6958252D004400AEBBAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D6EA1FBC2AE9E4B3503586E /* Pods-Forcas-ForcasUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
