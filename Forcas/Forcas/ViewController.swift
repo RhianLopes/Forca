@@ -86,6 +86,7 @@ extension ViewController {
     private func avisarVencedor() {
         let alerta = UIAlertController(title: "Maoe!", message: "Parabéns, você ganhou!", preferredStyle: .alert)
         alerta.addAction(acao)
+        present(alerta, animated: true, completion: nil)
     }
     
     private func atualizarImagem() {
