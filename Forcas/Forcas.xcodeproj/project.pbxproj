@@ -22,6 +22,9 @@
 		F1EFF65F252FAA9600C7503A /* String+AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EFF65E252FAA9600C7503A /* String+AttributedText.swift */; };
 		F1EFF662252FAF5100C7503A /* JogoDaForca.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EFF661252FAF5100C7503A /* JogoDaForca.swift */; };
 		F1EFF664252FB9C700C7503A /* Funcoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EFF663252FB9C700C7503A /* Funcoes.swift */; };
+		F1F878802531DAEF0045458A /* JogoDaForcaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F8787F2531DAEF0045458A /* JogoDaForcaTests.swift */; };
+		F1F878822531DD7C0045458A /* String+Comparavel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F878812531DD7C0045458A /* String+Comparavel.swift */; };
+		F1F878842531DE540045458A /* Character+Comparavel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F878832531DE540045458A /* Character+Comparavel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		F1EFF65E252FAA9600C7503A /* String+AttributedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+AttributedText.swift"; sourceTree = "<group>"; };
 		F1EFF661252FAF5100C7503A /* JogoDaForca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaForca.swift; sourceTree = "<group>"; };
 		F1EFF663252FB9C700C7503A /* Funcoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funcoes.swift; sourceTree = "<group>"; };
+		F1F8787F2531DAEF0045458A /* JogoDaForcaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoDaForcaTests.swift; sourceTree = "<group>"; };
+		F1F878812531DD7C0045458A /* String+Comparavel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Comparavel.swift"; sourceTree = "<group>"; };
+		F1F878832531DE540045458A /* Character+Comparavel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+Comparavel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +171,7 @@
 			children = (
 				F13C6940252D004400AEBBAD /* ForcasTests.swift */,
 				F13C6942252D004400AEBBAD /* Info.plist */,
+				F1F8787F2531DAEF0045458A /* JogoDaForcaTests.swift */,
 			);
 			path = ForcasTests;
 			sourceTree = "<group>";
@@ -184,6 +191,8 @@
 				F13C695B252D1D2700AEBBAD /* UiViewController+Teclado.swift */,
 				F1EFF65E252FAA9600C7503A /* String+AttributedText.swift */,
 				F1EFF663252FB9C700C7503A /* Funcoes.swift */,
+				F1F878812531DD7C0045458A /* String+Comparavel.swift */,
+				F1F878832531DE540045458A /* Character+Comparavel.swift */,
 			);
 			path = Extensoes;
 			sourceTree = "<group>";
@@ -417,11 +426,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F13C692E252D004200AEBBAD /* ViewController.swift in Sources */,
+				F1F878842531DE540045458A /* Character+Comparavel.swift in Sources */,
 				F13C695C252D1D2700AEBBAD /* UiViewController+Teclado.swift in Sources */,
 				F1EFF65F252FAA9600C7503A /* String+AttributedText.swift in Sources */,
 				F13C692A252D004200AEBBAD /* AppDelegate.swift in Sources */,
 				F1EFF664252FB9C700C7503A /* Funcoes.swift in Sources */,
 				F13C692C252D004200AEBBAD /* SceneDelegate.swift in Sources */,
+				F1F878822531DD7C0045458A /* String+Comparavel.swift in Sources */,
 				F1EFF662252FAF5100C7503A /* JogoDaForca.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F13C6941252D004400AEBBAD /* ForcasTests.swift in Sources */,
+				F1F878802531DAEF0045458A /* JogoDaForcaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

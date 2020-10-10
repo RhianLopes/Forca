@@ -32,26 +32,51 @@ class JogoDaForca {
     
     private(set) var vitoria = false
     
-    internal init(palavra: String, dica: String, palavraMascarada: String) {
-        self.palavra = palavra
+    internal init(palavra: String, dica: String) {
+        self.palavra = palavra.comparavel
         self.dica = dica
-        self.palavraMascarada = palavraMascarada.map { _ in "_" }.joined()
+        self.palavraMascarada = palavra.map { _ in "_" }.joined()
     }
     
     func tentativa(letra: String) {
-        if tentativasAnteriores.contains(letra) {
+        guard let letraInformada = letra.first?.comparavel else {
+            return
+        }
+        if tentativasAnteriores.contains(letraInformada) {
+            //Validar letra repetida
+            return
+        }
+        
+        tentativasAnteriores.append(letraInformada)
+        
+        guard palavra.contains(letraInformada) else {
             erros += 1
             return
         }
         
-        tentativasAnteriores.append(letra)
+        palavraMascarada = troca(letraInformada, na: palavraMascarada, com: palavra)
         
-        guard palavra.contains(letra) else {
-            erros += 1
-            return
+        if palavra == palavraMascarada {
+            vitoria = true
         }
-        
-        palavraMascarada = troca(letra, na: palavraMascarada, com: palavra)
     }
     
+}
+
+let palavras = [
+    "abelha": "inseto",
+    "formiga": "inseto",
+    "macaco": "animal",
+    "cabra": "animal"
+]
+
+extension JogoDaForca {
+    
+    class func aleatorio() -> JogoDaForca {
+        guard let item = palavras.randomElement() else {
+            return JogoDaForca(palavra: "desnatado", dica: "microfone")
+            
+        }
+        return JogoDaForca(palavra: item.key, dica: item.value)
+    }
 }
